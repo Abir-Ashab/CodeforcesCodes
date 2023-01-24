@@ -17,8 +17,7 @@ int main() {
                 if(s[i] == s[i+1] and s[i] == '.') {
                     sum += min(2*y, z);
                     i += 2;
-                }
-                else if(s[i] == '.') {
+                } else if(s[i] == '.') {
                     sum += y;
                     i++;
                 }
